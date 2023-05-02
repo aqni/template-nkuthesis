@@ -1,0 +1,54 @@
+% !TEX program  = xelatex
+
+\documentclass{nkuthesis-ug}
+% \documentclass[draft]{nkuthesis-ug} % 草稿模式
+
+\title{\emph{中文标题}}
+\title*{\large English \\ Title} % 手动断行
+\studentid{1234567}
+\author{XXX}
+\grade{2019 级}
+\major{计算机科学与技术}
+\department{计算机科学与技术}
+\college{计算机学院}
+\adviser{XXX\quad 教授}
+\keywords{关键词一；关键词二；关键词三}
+\keywords*{keyword1; keyword2; keyword3}
+
+\begin{document}
+
+\pagenumbering{Roman}
+
+\maketitle
+\declaration
+\begin{abstract}
+中文摘要正文
+\end{abstract}
+\begin{abstract*}
+English abstract text.
+\end{abstract*}
+\tableofcontents
+
+\pagenumbering{arabic} 
+
+\section{一级标题}
+\subsection{二级标题}
+\subsubsection{三级标题}
+\paragraph{四级标题}
+\subparagraph{五级标题}
+正文内容\footnote{注释内容}
+
+更多细节可查看源码实现，挺短的
+
+\appendix % 单标题附录
+% \appendix* 多标题附录
+% \section{附录标题}
+附录内容
+
+% \bibliography{ref.bib}
+
+\begin{acknowledgement}
+致谢内容
+\end{acknowledgement}
+
+\end{document}
