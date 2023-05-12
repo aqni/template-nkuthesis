@@ -1,3 +1,5 @@
+> 本仓库不再维护，移步 https://github.com/Tr0py/NKU-thesis-template-2020
+
 # LaTeX模板：南开大学本科生毕业论文
 
 根据[2022年11月版《南开大学本科毕业论文（设计）指导手册》](http://jwc.nankai.edu.cn/2022/1124/c24a497818/page.htm)的格式要求，基于`ctexart`文档类，编写`nkuthesis-ug`文档类，含封面，兼容页眉。
